@@ -1,0 +1,13 @@
+version: 2
+ethernets:
+  primary:
+    match:
+      name: "en*"
+    dhcp4: false
+    addresses:
+      - ${address}/24
+    routes:
+      - to: default
+        via: ${gateway}
+    nameservers:
+      addresses: [${gateway}]

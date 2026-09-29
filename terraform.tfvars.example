@@ -1,0 +1,4 @@
+# Copy to terraform.tfvars (gitignored) to override defaults.
+# ssh_public_key_path = "~/.ssh/id_ed25519.pub"
+# base_image_url      = "/path/to/noble-server-cloudimg-amd64.img"  # a local copy skips the 600 MB download
+# network_prefix      = "192.168.150"
